@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Crafts Product page</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/c61351b670.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-gift"></i> Custom Crafts </a>
+
+        <nav class="navbar">
+			<a href="#" class="btn" onclick="document.location='index.html'"> Home </a>
+            <a href="#product">product</a>
+            <a href="#about">about</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+       
+        <!-- end -->
+
+    </header>
+	
+	 <!-- banner -->
+
+    <section class="banner-container">
+
+        
+
+    </section>
+
+
+    <!-- end -->
+
+    <!-- product -->
+
+   <section class="product" id="product">
+
+        <h1 class="heading"> Custom <span>Basket</span></h1>
+
+        <div class="box-container">
+
+            <form action="gift.php" method="post">
+
+                <label for="CName">Name:</label>
+                <input type="text" id="CName" name="CName" placeholder="Enter your name" required>
+	  
+                <label for="CSurname">Surname:</label>
+                <input type="text" id="CSurname" name="CSurname" placeholder="Enter your surname" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phonenum" name="phonenum" placeholder="Enter your phone number" required>
+			
+			  <label for="Type">First Item: Basket Type </label>
+			  <select id="firstType" name="firstType" class="drop" required>
+				<option value="Round hand basket (light)">Round hand basket (light)</option>
+				<option value="Round hand basket (dark)">Round hand basket (dark)</option>
+				<option value="Square hand basket (light)">Square hand basket (light)</option>
+				<option value="Square hand basket (dark)">Square hand basket (dark)</option>
+			  </select>
+			  
+			  <label for="Type">Second Item:</label>
+			  <select id="secondType" name="secondType" class="drop" required>
+				<option value="Dark Chocolate Box">Dark Chocolate Box</option>
+				<option value="Milk Chocolate box">Milk Chocolate box</option>
+				<option value="white Chocolate box">white Chocolate box</option>
+				<option value="Leather Wallet">Leather Wallet</option>
+                <option value="Leather purse">Leather purse</option>
+                <option value="Plain Black Cap">Plain Black Cap</option>
+                <option value="plain white Cap">plain white Cap</option>
+                <option value="Leather keychain">Leather keychain</option>
+                <option value="Rose bouquet">Rose bouquet</option>
+                <option value="Leather Wallet">Leather Wallet</option>
+                <option value="Leather Journal">Leather Journal</option>
+                <option value="Note Book">Note Book</option>
+                <option value="Clear Iphone Case">Clear Iphone Case</option>
+                <option value="Funny Socks">Funny Socks (x1)</option>
+                <option value="Black pen">Black pen</option>
+                <option value="Smoothie Cup">Smoothie Cup</option>
+                <option value="Sweet red wine">Sweet red wine</option>
+                <option value="Rose wine">Rose wine</option>
+                <option value="Sparkling wine">Sparkling wine</option>
+                <option value="White wine">White wine</option>
+			  </select>
+			  
+			   <label for="Type">Third Item:</label>
+			  <select id="thirdType" name="thirdType" class="drop" required>
+				<option value="Dark Chocolate Box">Dark Chocolate Box</option>
+				<option value="Milk Chocolate box">Milk Chocolate box</option>
+				<option value="white Chocolate box">white Chocolate box</option>
+				<option value="Leather Wallet">Leather Wallet</option>
+                <option value="Leather purse">Leather purse</option>
+                <option value="Plain Black Cap">Plain Black Cap</option>
+                <option value="plain white Cap">plain white Cap</option>
+                <option value="Leather keychain">Leather keychain</option>
+                <option value="Rose bouquet">Rose bouquet</option>
+                <option value="Leather Wallet">Leather Wallet</option>
+                <option value="Leather Journal">Leather Journal</option>
+                <option value="Note Book">Note Book</option>
+                <option value="Clear Iphone Case">Clear Iphone Case</option>
+                <option value="Funny Socks">Funny Socks (x1)</option>
+                <option value="Black pen">Black pen</option>
+                <option value="Smoothie Cup">Smoothie Cup</option>
+                <option value="Sweet red wine">Sweet red wine</option>
+                <option value="Rose wine">Rose wine</option>
+                <option value="Sparkling wine">Sparkling wine</option>
+                <option value="White wine">White wine</option>
+			  </select>
+			  
+			   <label for="Type">Fourth Item:</label>
+			  <select id="fourthType" name="fourthType" class="drop" required>
+				<option value="Dark Chocolate Box">Dark Chocolate Box</option>
+				<option value="Milk Chocolate box">Milk Chocolate box</option>
+				<option value="white Chocolate box">white Chocolate box</option>
+				<option value="Leather Wallet">Leather Wallet</option>
+                <option value="Leather purse">Leather purse</option>
+                <option value="Plain Black Cap">Plain Black Cap</option>
+                <option value="plain white Cap">plain white Cap</option>
+                <option value="Leather keychain">Leather keychain</option>
+                <option value="Rose bouquet">Rose bouquet</option>
+                <option value="Leather Wallet">Leather Wallet</option>
+                <option value="Leather Journal">Leather Journal</option>
+                <option value="Note Book">Note Book</option>
+                <option value="Clear Iphone Case">Clear Iphone Case</option>
+                <option value="Funny Socks">Funny Socks (x1)</option>
+                <option value="Black pen">Black pen</option>
+                <option value="Smoothie Cup">Smoothie Cup</option>
+                <option value="Sweet red wine">Sweet red wine</option>
+                <option value="Rose wine">Rose wine</option>
+                <option value="Sparkling wine">Sparkling wine</option>
+                <option value="White wine">White wine</option>
+			  </select>
+			  
+			   <label for="Type">Fifth Item:</label>
+			  <select id="fifthType" name="fifthType" class="drop" required>
+				<option value="Dark Chocolate Box">Dark Chocolate Box</option>
+				<option value="Milk Chocolate box">Milk Chocolate box</option>
+				<option value="white Chocolate box">white Chocolate box</option>
+				<option value="Leather Wallet">Leather Wallet</option>
+                <option value="Leather purse">Leather purse</option>
+                <option value="Plain Black Cap">Plain Black Cap</option>
+                <option value="plain white Cap">plain white Cap</option>
+                <option value="Leather keychain">Leather keychain</option>
+                <option value="Rose bouquet">Rose bouquet</option>
+                <option value="Leather Wallet">Leather Wallet</option>
+                <option value="Leather Journal">Leather Journal</option>
+                <option value="Note Book">Note Book</option>
+                <option value="Clear Iphone Case">Clear Iphone Case</option>
+                <option value="Funny Socks">Funny Socks (x1)</option>
+                <option value="Black pen">Black pen</option>
+                <option value="Smoothie Cup">Smoothie Cup</option>
+                <option value="Sweet red wine">Sweet red wine</option>
+                <option value="Rose wine">Rose wine</option>
+                <option value="Sparkling wine">Sparkling wine</option>
+                <option value="White wine">White wine</option>
+			  </select>
+			  
+			   <label for="Type">Sixth Item:</label>
+			  <select id="sixthType" name="sixthType" class="drop" required>
+				<option value="Dark Chocolate Box">Dark Chocolate Box</option>
+				<option value="Milk Chocolate box">Milk Chocolate box</option>
+				<option value="white Chocolate box">white Chocolate box</option>
+				<option value="Leather Wallet">Leather Wallet</option>
+                <option value="Leather purse">Leather purse</option>
+                <option value="Plain Black Cap">Plain Black Cap</option>
+                <option value="plain white Cap">plain white Cap</option>
+                <option value="Leather keychain">Leather keychain</option>
+                <option value="Rose bouquet">Rose bouquet</option>
+                <option value="Leather Wallet">Leather Wallet</option>
+                <option value="Leather Journal">Leather Journal</option>
+                <option value="Note Book">Note Book</option>
+                <option value="Clear Iphone Case">Clear Iphone Case</option>
+                <option value="Funny Socks">Funny Socks (x1)</option>
+                <option value="Black pen">Black pen</option>
+                <option value="Smoothie Cup">Smoothie Cup</option>
+                <option value="Sweet red wine">Sweet red wine</option>
+                <option value="Rose wine">Rose wine</option>
+                <option value="Sparkling wine">Sparkling wine</option>
+                <option value="White wine">White wine</option>
+			  </select>
+	  
+	  
+					<br>
+				<input class="btn" type="submit" value="Submit">
+			</form>
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- about -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>about </span> us </h1>
+
+        <div class="row">
+
+            <div class="content">
+                <h3>we make organic food in market</h3>
+                <div class="divider"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aperiam rem cupiditate sequi porro assumenda tenetur rerum modi, pariatur enim quis officiis nesciunt et</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo totam aut voluptatum ipsa dolorum.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="image">
+                <img src="images/about1.png" alt="">
+            </div>
+
+            <div class="image">
+                <img src="images/chocolate-ge415d6339_1280.jpg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- end -->
+
+    <!-- contact -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> contact <span> now </span> </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/Flowers-pana.png" alt="">
+            </div>
+
+            <form action="">
+
+                <div class="inputBox">
+                    <input type="text" placeholder="first name">
+                    <input type="text" placeholder="last name">
+                </div>
+
+                <div class="inputBox">
+                    <input type="email" placeholder="email address">
+                    <input type="number" placeholder="phone">
+                </div>
+
+                <textarea placeholder="Order" id="" cols="30" rows="10" class="itemlist"></textarea>
+                <input type="submit" value="order now" class="btn">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- footer -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>find us here</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In accusamus praesentium.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact us</h3>
+                <p>+277 000 0000</p>
+                <a href="#" class="link">CustomCrafts@gmail.com</a>
+            </div>
+
+            <div class="box">
+                <h3>localization</h3>
+                <p>445 something road <br>
+                Somewhere <br>
+                Gauteng.
+                </p>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
